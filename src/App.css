@@ -1,16 +1,15 @@
+:root {
+  --mypurple: #9251e7;
+}
+
 .App {
   text-align: center;
+  color: whitesmoke;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -24,15 +23,121 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.text-size-1 {
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-size-2 {
+  font-size: 60px;
+}
+
+.text-size-3 {
+  font-size: 20px;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  color: whitesmoke;
+  margin: 6px;
+  padding: 3px;
+  max-width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: 'Syne';
+}
+
+.links{
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.links:hover{
+  color: var(--mypurple) !important;
+}
+
+.main {
+  margin: 6px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 90vh;
+  font-family: 'Syne';
+}
+
+.about-head {
+  color: whitesmoke;
+  text-align: justify;
+  /*border: 2px solid white !important;*/
+}
+
+.about {
+  color: whitesmoke;
+  text-align: justify;
+  margin-bottom: 3px;
+  /*border: 2px solid white !important;*/
+  max-width: 50vw;
+}
+
+.btn-purple {
+  background-color: var(--mypurple) !important;
+  color: whitesmoke !important;
+  width: 170px;
+  height: 60px;
+  border-radius: 15px !important;
+}
+
+.btn-purple:hover {
+  background-color: #9251e700 !important;
+  color: whitesmoke !important;
+  border: 1px solid whitesmoke !important;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke !important;
+  font-family: 'Syne';
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 8px;
+  max-width: 100%;
+  font-family: 'Syne';
+}
+
+.form-label {
+  color: whitesmoke !important;
+  margin: 4px;
+}
+
+.form-control {
+  max-width: 15vw;
+  resize: none;
+  color: black !important;
+}
+
+.list-group {
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: transparent;
+  font-family: 'Syne';
+}
+
+.list-group-item {
+  color: whitesmoke !important;
+  background-color: transparent !important;
+  margin-bottom: 4px;
+  margin-top: 4px;
 }
