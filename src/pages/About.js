@@ -15,10 +15,13 @@ export default function Home() {
             </div>
             <div>
                 <Link to="/projects">
-                    <button type="button" className="btn btn-purple mx">Projects</button>
+                    <button type="button" className="btn btn-purple">Projects</button>
                 </Link>
                 <Link to="/education">
                     <button type="button" className="btn btn-purple mx-3">Education</button>
+                </Link>
+                <Link to="/certifications">
+                    <button type="button" className="btn btn-purple">Certifications</button>
                 </Link>
             </div>
         </div>
