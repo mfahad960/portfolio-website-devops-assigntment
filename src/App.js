@@ -20,8 +20,6 @@ function App() {
         <Link className="links" to="/projects">Projects</Link>
         |
         <Link className="links" to="/education">Education</Link>
-        |
-        <Link className="links" to="/ecertifications">Certifications</Link>
       </div>
       <Routes>
         <Route path="/" element={<About/>}/>
