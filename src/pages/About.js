@@ -20,6 +20,9 @@ export default function Home() {
                 <Link to="/education">
                     <button type="button" className="btn btn-purple mx-3">Education</button>
                 </Link>
+                <Link to="/certifications">
+                    <button type="button" className="btn btn-purple">Certifications</button>
+                </Link>
             </div>
         </div>
     </>
