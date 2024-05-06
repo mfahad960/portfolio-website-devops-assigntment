@@ -22,7 +22,7 @@ export default function Home() {
                 </Link>
                 <Link to="/certifications">
                     <button type="button" className="btn btn-purple">Certifications</button>
-                </Link>
+                </Link>>
             </div>
         </div>
     </>
