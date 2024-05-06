@@ -10,7 +10,7 @@ export default function Education() {
     return (
     <>
         <div className="h1">
-        Courses Studied: 
+        Courses Studied:
         </div>
         <ul className="list-group list-group-flush">
         {courses_list.map((item, i) => (
